@@ -1,0 +1,327 @@
+.macro-UI {
+  display: flex;
+  flex-direction: column;
+  height: 340px;
+  align-items: flex-start;
+  padding: 0.91px 0.91px 0.91px 0.91px;
+  position: relative;
+  border: 0.91px solid;
+  border-color: #f6339a33;
+  background: linear-gradient(
+    117deg,
+    rgba(26, 22, 37, 1) 0%,
+    rgba(24, 20, 35, 1) 20%,
+    rgba(22, 18, 33, 1) 40%,
+    rgba(19, 15, 30, 1) 60%,
+    rgba(17, 13, 28, 1) 80%,
+    rgba(15, 11, 26, 1) 100%
+  );
+}
+
+.macro-UI .container {
+  display: flex;
+  height: 40.91px;
+  align-items: center;
+  justify-content: space-around;
+  gap: 121.45px;
+  padding: 0px 15.99px 0px 15.99px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  border-bottom-width: 0.91px;
+  border-bottom-style: solid;
+  border-color: #f6339a33;
+  background: linear-gradient(
+    90deg,
+    rgba(37, 26, 51, 1) 0%,
+    rgba(35, 25, 49, 1) 14%,
+    rgba(34, 25, 47, 1) 29%,
+    rgba(32, 24, 45, 1) 43%,
+    rgba(31, 24, 43, 1) 57%,
+    rgba(29, 23, 41, 1) 71%,
+    rgba(28, 23, 39, 1) 86%,
+    rgba(26, 22, 37, 1) 100%
+  );
+}
+
+.macro-UI .text {
+  display: flex;
+  width: 144.74px;
+  height: 20px;
+  align-items: flex-start;
+  position: relative;
+}
+
+.macro-UI .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  margin-right: -8.26px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #d1d5dc;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.macro-UI .div {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  align-items: flex-start;
+  gap: 23.99px;
+  padding: 23.99px 23.99px 0px 23.99px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.macro-UI .container-2 {
+  display: flex;
+  height: 23.99px;
+  align-items: center;
+  gap: 11.99px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.macro-UI .checkbox {
+  position: relative;
+  width: 15.99px;
+  height: 15.99px;
+  border-radius: 4px;
+  border: 1.82px solid;
+  border-color: #fb64b680;
+}
+
+.macro-UI .label {
+  position: relative;
+  width: 130.43px;
+  height: 23.99px;
+}
+
+.macro-UI .text-wrapper-2 {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #d1d5dc;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.macro-UI .container-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 57.8px;
+  align-items: flex-start;
+  padding: 16.9px 16.9px 0.91px 16.9px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  border-radius: 10px;
+  border: 0.91px solid;
+  border-color: #f6339a1a;
+  background: linear-gradient(
+    117deg,
+    rgba(37, 26, 51, 0.5) 0%,
+    rgba(26, 22, 37, 0.5) 100%
+  );
+}
+
+.macro-UI .container-3 {
+  display: flex;
+  height: 23.99px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 6.1e-05px 0px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.macro-UI .div-wrapper {
+  display: flex;
+  width: 40.5px;
+  height: 20px;
+  align-items: flex-start;
+  position: relative;
+}
+
+.macro-UI .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  margin-right: -6.50px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #99a1af;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.macro-UI .container-4 {
+  display: flex;
+  width: 86.24px;
+  height: 23.99px;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+}
+
+.macro-UI .container-5 {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  background-color: #ff6467;
+  border-radius: 30504000px;
+  box-shadow: 0px 4px 6px -4px #ff646780, 0px 10px 15px -3px #ff646780;
+}
+
+.macro-UI .text-2 {
+  position: relative;
+  width: 70.24px;
+  height: 23.99px;
+}
+
+.macro-UI .text-wrapper-4 {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ff6467;
+  font-size: 16px;
+  letter-spacing: 0.40px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.macro-UI .container-6 {
+  display: flex;
+  flex-direction: column;
+  height: 61.79px;
+  align-items: flex-start;
+  padding: 16.9px 16.9px 0.91px 16.9px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  border-radius: 10px;
+  border: 0.91px solid;
+  border-color: #f6339a1a;
+  background: linear-gradient(
+    117deg,
+    rgba(37, 26, 51, 0.5) 0%,
+    rgba(26, 22, 37, 0.5) 100%
+  );
+}
+
+.macro-UI .container-7 {
+  display: flex;
+  height: 27.98px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 3.05e-05px 0px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.macro-UI .text-3 {
+  display: flex;
+  width: 33.15px;
+  height: 20px;
+  align-items: flex-start;
+  position: relative;
+}
+
+.macro-UI .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  margin-right: -3.85px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #99a1af;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.macro-UI .text-4 {
+  position: relative;
+  width: 79.18px;
+  height: 27.98px;
+}
+
+.macro-UI .text-wrapper-6 {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-family: "Consolas-Regular", Helvetica;
+  font-weight: 400;
+  color: #e2e8f0;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.macro-UI .container-btn {
+  display: flex;
+  gap: 11.99px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.macro-UI .btn {
+  flex: 1;
+  height: 35px;
+  border-radius: 8px;
+  border: 0.91px solid;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.macro-UI .btn:hover {
+  opacity: 0.8;
+}
+
+.macro-UI .btn-start {
+  border-color: #00ff8880;
+  background: rgba(0, 255, 136, 0.08);
+  color: #00ff88;
+}
+
+.macro-UI .btn-stop {
+  border-color: #ff646780;
+  background: rgba(255, 100, 103, 0.08);
+  color: #ff6467;
+}
+
+.macro-UI .container-8 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 3.99px;
+  background: linear-gradient(
+    90deg,
+    rgba(246, 51, 154, 1) 0%,
+    rgba(173, 70, 255, 1) 50%,
+    rgba(246, 51, 154, 1) 100%
+  );
+}
